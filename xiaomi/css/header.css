@@ -1,0 +1,103 @@
+header .top1 {
+	width: 100%;
+	height: 120px;
+	background: url(../img/top1.jpg) center no-repeat;
+}
+
+header .top1 a {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+header .top21 {
+	float: left;
+}
+
+.top2 a {
+	font-size: 12px;
+	color: #b0b0b0;
+	line-height: 40px;
+	text-decoration: none;
+}
+
+.top2 a:hover {
+	color: white;
+}
+
+.top2 a::after {
+	padding: 0px 5px 0px 10px;
+	content: "|";
+	color: #424242;
+}
+
+.top21 a:last-child:after {
+	display: none;
+}
+
+header .top2 {
+	height: 40px;
+	width: 100%;
+	background-color: #333;
+	a:hover {
+		color: white;
+	}
+}
+
+header .top22,
+.top23 {
+	float: right;
+}
+
+header .top23 {
+	width: 120px;
+	margin-left: 20px;
+	text-align: center;
+	background-color: #424242;
+	position: relative;
+}
+
+.top22:last-child:after {
+	display: none;
+}
+
+.top231 {
+	width: 320px;
+	height: 0px;
+	font-size: 14px;
+	line-height: 100px;
+	background: white;
+	box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.5);
+	position: absolute;
+	right: 0px;
+	top: 40px;
+	transition: 1s;
+	overflow: hidden;
+}
+
+.top23:last-child a:after {
+	display: none;
+}
+
+.top23:hover .top231 {
+	height: 100px;
+}
+
+
+.top23 a {
+	width: 100%;
+	height: 100%;
+	display: block;
+	transition: 0.1s 0.8s;
+}
+.top23:hover a {
+	transition: 0.1s;
+	 background: white;
+	color: #ff4400;
+}
+
+.top23 a i{
+	font-size: 20px;
+	line-height: 30px;
+	vertical-align: -3px;
+}

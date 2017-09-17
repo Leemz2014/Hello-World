@@ -1,0 +1,188 @@
+    .boxm {
+        overflow: hidden;
+        width: 234px;
+        height: 300px;
+        transition: 0.5s;
+        background-color: white;
+        text-align: center;
+        margin-left: 14px;
+        margin-top: 14px;
+        img {
+            position: relative;
+            display: block;
+            height: 160px;
+            margin: auto;
+            padding: 23px;
+        }
+        a {
+            text-decoration: none;
+        }
+    }
+    
+    .boxspro {
+        width: 234px;
+        height: 143px;
+        margin-left: 14px;
+        margin-top: 14px;
+        background-color: white;
+        a {
+            text-decoration: none;
+        }
+        .lan {
+            width: 85px;
+            height: 80px;
+            display: block;
+            float: left;
+            margin: 45px 10px 0px 30px;
+            p {
+                text-overflow: ellipsis;
+                font-size: 14px;
+                color: #000000;
+                margin-bottom: 5px;
+            }
+            span {
+                color: #ff6700;
+                font-size: 14px;
+            }
+        }
+        img {
+            display: block;
+            margin: 30px 30px 0px 0px;
+            width: 80px;
+            height: 80px;
+        }
+    }
+    
+    .upoutb {
+        position: absolute;
+        top: 0px;
+        left: 85px;
+        background-color: #2196f3;
+        font-size: 12px;
+        width: 65px;
+        height: 16px;
+        line-height: 20px;
+        text-align: center;
+    }
+    
+    .boxsbro {
+        width: 234px;
+        height: 143px;
+        margin-left: 14px;
+        margin-top: 14px;
+        background-color: white;
+        a {
+            text-decoration: none;
+        }
+        .more {
+            float: left;
+            width: 85px;
+            height: 80px;
+            display: block;
+            margin: 45px 10px 0px 30px;
+            a {
+                text-decoration: none;
+            }
+            p {
+                text-overflow: ellipsis;
+                font-size: 18px;
+                color: #000000;
+            }
+            span {
+                font-size: 12px;
+                color: #757575;
+            }
+        }
+        .iconfont {
+            position: relative;
+            top: 45px;
+            left: 20px;
+            color: #FF6700;
+            font-size: 48px;
+        }
+    }
+    
+    .downout {
+        position: relative;
+        bottom: -76px;
+        width: 235px;
+        height: 76px;
+        background-color: #FF6700;
+        transition: 0.5s;
+        z-index: 100;
+        text-overflow: ellipsis;
+        text-align: left;
+        .review {
+            color: #fff;
+            display: block;
+            font-size: 12px;
+            padding: 10px 30px 5px 30px;
+        }
+        .author {
+            color: rgba(255, 255, 255, 0.6);
+            margin-bottom: 5px;
+            font-size: 12px;
+            padding-left: 30px;
+        }
+    }
+    
+    #elec {
+        ul {
+            display: block;
+            padding-top: 40px;
+        }
+        li {
+           
+            float: left;
+            overflow: hidden;
+            position: relative;
+            .boxm {
+                height: 300px;
+            }
+            &:hover {
+                transform: translateY(-2px);
+                box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+            }
+            &:hover .downout {
+                position: absolute;
+                bottom: 0px;
+            }
+        }
+        .message {
+            
+            .title {
+                font-size: 22px;
+                margin: 40px 0px 10px 0px;
+            }
+            .choose {
+                span {
+                    float: right;
+                    margin-left: 32px;
+                    .now1 {
+                        color: #FF4400;
+                        padding-bottom: 2px;
+                        border-bottom: 2px solid #FF4400;
+                    }
+                    a {
+                        color: #000000;
+                        text-decoration: none;
+                        &:hover {
+                            color: #FF4400;
+                            padding-bottom: 2px;
+                            border-bottom: 2px solid #FF4400;
+                        }
+                    }
+                }
+            }
+        }
+        .boxb {
+            
+            margin-top: 14px;
+            a {
+                img {
+                    height: 614px;
+                    width: 234px;
+                }
+            }
+        }
+    }
